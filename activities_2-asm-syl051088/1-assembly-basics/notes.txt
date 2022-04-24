@@ -1,0 +1,2 @@
+register %rdi holds the first parameter
+register %rsi holds the second parameter.

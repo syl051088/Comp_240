@@ -1,0 +1,2 @@
+absdiff and absdiff_j are the same in assembly code.
+The 01 optimization run code line by line; however, the 0g optimization have to decide whether to jump based on the condition. Thus, if the machine made wrong guess, the insructions have to be executed from the beginning again.
