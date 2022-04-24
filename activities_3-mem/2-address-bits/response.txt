@@ -1,0 +1,22 @@
+1. 
+E = 8
+M = 1024GB = 2^30 * 2^10 = 2^40 bytes
+m = 40
+B = 64 bytes
+b = 6
+C = 2^5 * 2^10 = 2^15 bytes = B * E * S
+S = 2^6 bytes
+s = 6
+t = 40 - 6 - 6 = 28
+
+2.
+E = 8
+M = 1024GB = 2^40 bytes
+m = 40
+B = 64 bytes
+b = 6
+C = 2^8 * 2^10 = 2^18 bytes = B * E * S
+S = 2^9 bytes
+s = 9
+t = 40 - 6 - 9 = 25
+

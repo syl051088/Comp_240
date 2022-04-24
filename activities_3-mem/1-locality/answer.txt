@@ -1,0 +1,5 @@
+Why does it take longer to run sumvec_stride than sumvec when the stride length is 1?
+As the stride getting larger, it is posible that the information we are trying to access in no longer in the cache, thus we need extra time to get data from the memory.
+
+sumarrayrows.c runs faster, becasue c stores data in row major order. Thus, when looping in row order, we get data from cache. However, when looping in column order, we have to
+get data from memory each time.

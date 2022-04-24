@@ -1,0 +1,9 @@
+1. The D1 miss rate is 6.2%.
+
+2. Miss rate increases when stride increases.
+
+3. The D1 miss rate for sumarrayrows is 6.2%.
+4. The D1 miss rate for sumarraycols is 53.1%.
+These results matches expectations.
+
+5. The D1 miss rate for sumarray3d_slower is 53.1%, and the faster version is 6.2%.
