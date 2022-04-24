@@ -1,0 +1,4 @@
+1. Little-endian, because the least significant byte comes first.
+2. The string chararter are not a sequence of numbers. They are directly converted to binary numbers base on ASCii.
+3. The printf also pints the value of the pointer. 
+4. The pointer increasing by adding the i to the pointer, which insteading of printing the address of the first byte, it prints the address of the ith byte.

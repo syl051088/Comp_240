@@ -1,0 +1,2 @@
+The first value is 128, which is 0x80 in decimal. 
+The second value is 80, which is a hexidecimal.
